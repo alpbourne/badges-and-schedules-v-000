@@ -1,4 +1,3 @@
 def badge_maker(array)
-  names=["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", and "Matz"]
   new_name=[]
-  
+  badge_maker.each {|i| new_name << "Hello, my name is #{array}."}
