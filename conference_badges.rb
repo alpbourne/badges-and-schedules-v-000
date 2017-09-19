@@ -5,14 +5,12 @@ end
 def batch_badge_creator(names)
   next_name=[]
   names.each {|i| next_name << "Hello, my name is #{i}."}
-  end
   return next_name
 end
 
 def assign_rooms(attendees)
   room_assignments=[]
   attendees.each_with_index {|i, number| room_assignments << "Hello, #{i}! You'll be assigned to room #{number+1}!"}
-  end
   return room_assignments
 end
 
